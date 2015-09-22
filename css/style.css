@@ -1,0 +1,744 @@
+@font-face {
+  font-family: 'Calibri';
+  src: 
+      url('../fonts/Calibri/Calibri.ttf')  format('truetype'), 
+      url('../fonts/Calibri/Calibri.svg#Calibri') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'Gothic';
+  src:	url('../fonts/reforma/CenturyGothic.ttf')  format('truetype');
+		url('../fonts/reforma/CenturyGothic.eot') format('embedded-opentype');
+		  url('../fonts/reforma/CenturyGothic.svg#CenturyGothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Calibri-Bold';
+  src:	url('../fonts/Calibri-Bold/Calibri-Bold.ttf')  format('truetype');
+		url('../fonts/Calibri-Bold/Calibri-Bold.eot') format('embedded-opentype');
+		  url('../fonts/Calibri-Bold/Calibri-Bold.svg#Calibri-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gothic-Bold';
+  src:	url('../fonts/Centri-Bold/CenturyGothic-Bold.ttf')  format('truetype');
+		url('../fonts/Centri-Bold/CenturyGothic-Bold.eot') format('embedded-opentype');
+		  url('../fonts/Centri-Bold/CenturyGothic-Bold.svg#CenturyGothic-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.page {
+    width: 100%;
+    min-width: 1300px;
+    min-height: 100%;
+}
+.head {
+    height: 92px;
+}
+header {
+    height: 92px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1030;
+    background-color: #3c2008;
+    border-bottom: 1px solid;
+}
+
+.top{
+	height:92px;
+}
+.logo {
+    margin-left: -94px;
+    float: left;
+    display: block;
+    width: 300px;
+}
+.h_down{
+	height:92px;
+}
+#menu {
+    display: inline-block;
+    float: left;
+}
+.nav {
+    display: inline-block;
+    margin-top: 39px;
+}
+.nav li {
+    float: left;
+    margin: 0 15px;
+    outline: none;
+    list-style: none;
+}
+.nav li a {
+	font-family: 'Gothic';
+    font-size: 14px;
+    color: #dbb25a;
+    text-decoration: underline;
+}
+.nav li:hover a {
+    text-decoration: none;
+}
+.nav li.active a{
+	text-decoration: none;
+}
+.menu {
+    display: inline-block;
+    margin-top: 39px;
+}
+.menu li {
+    float: left;
+    margin: 0 15px;
+    outline: none;
+    list-style: none;
+}
+.menu li a {
+	font-family: 'Gothic';
+    font-size: 14px;
+    color: #dbb25a;
+    text-decoration: underline;
+}
+.menu li:hover a {
+    text-decoration: none;
+}
+.menu li.active a{
+	text-decoration: none;
+}
+.zvonok {
+    width: 176px;
+    float: right;
+    margin-top: 15px;
+}
+
+.phone {
+    font-family: 'Gothic';
+    font-size: 17px;
+    line-height: 22px;
+    color: #dbb25a;
+    float: right;
+}
+
+
+.address-phone {
+    font-family: 'Gothic';
+    font-size: 24px;
+    line-height: 66px;
+    height: 50px;
+    color: #dbb25a;
+    float: right;
+}
+
+/*head end*/
+/*forma*/
+.form {
+    height: 105px;
+}
+.form_input {
+    float: left;
+    margin-right: 53px;
+}
+.form_d {
+    width: 304px;
+    height: 44px;
+    border: 2px solid #deb969;
+    margin: 29px 0px 4px;
+    font-family: 'Gothic';
+    font-size: 14px;
+    text-indent: 10px;
+    outline: none;
+}
+.help_block {
+    font-family: 'Gothic';
+    font-size: 16px;
+    color: #fff;
+    text-indent: 10px;
+    display: none;
+}
+.button {
+    width: 304px;
+    height: 50px;
+    border: 2px solid #deb969;
+    margin: 29px 0px 4px;
+    font-family: 'Gothic-Bold';
+    text-align: center;
+    float: right;
+    font-size: 16px;
+    color: #dbb25a;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.button:hover {
+    background-color: #dbb25a;
+    color: #3c2008;
+    border: 2px solid #764012;
+	cursor:pointer;
+}
+/*end form*/
+/*specialization_company*/
+#specialization_company {
+    overflow: hidden;
+}
+.title {
+    font-family: "Gothic";
+    font-size: 30px;
+    text-align: center;
+    margin: 43px 0px;
+}
+.specialization_company_item {
+    text-align: center;
+    float: left;
+    margin: 0 29px;
+}
+.specialization_company_item p {
+    font-family: "Gothic";
+    font-size: 18px;
+}
+.specialization_company_item span {
+    display: block;
+    width: 100%;
+    margin-bottom: 9px;
+}
+.specialization_company_item span:before {
+    position: relative;
+    display: block;
+    margin: auto;
+    content: "";
+}
+.specialization_company_item span:before {
+    background-image: url(../img/sprite.png);
+    background-size: 461px,333px;
+    background-repeat: no-repeat;
+}
+.specialization_company_item.corporate span:before {
+    background-position: -43px -23px;
+    width: 58px;
+    height: 84px;
+}
+.specialization_company_item.teambuilding span:before {
+    background-position: -119px -20px;
+    width: 84px;
+    height: 84px;
+}
+.specialization_company_item.presentation span:before {
+    background-position: -137px -120px;
+    width: 80px;
+    height: 84px;
+}
+.specialization_company_item.concerts span:before {
+    background-position: -353px -29px;
+    width: 92px;
+    height: 84px;
+}
+.specialization_company_item.road-show span:before {
+    background-position: -240px -125px;
+    width: 84px;
+    height: 84px;
+}
+.specialization_company_item.booking-artists span:before {
+    background-position: -245px -24px;
+    width: 63px;
+    height: 84px;
+}
+/*specialization_company end*/
+/*who*/
+#how_we_work {
+    overflow: hidden;
+}
+.who_are_we {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+.who_are_we_list_container {
+    overflow: hidden;
+    margin-bottom: 37px;
+}
+.who_are_we_list {
+    position: relative;
+    margin-bottom: 7px;
+    padding-left: 31px;
+    line-height: 39px;
+    font-family: "Gothic";
+    font-size: 21px;
+}
+
+.who_are_we_list:before {
+    top: -8px;
+    left: 0;
+    background-image: url(../img/sprite.png);
+    background-position: -147px -243px;
+    width: 23px;
+    height: 49px;
+    background-size: 505px,333px;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    content: "";
+}
+/*who end*/
+/*our_projects*/
+#out_projects {
+    overflow: hidden;
+}
+.projects_wrapper {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.projects_item {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    margin-bottom: 20px;
+    max-height: 262px;
+    overflow: hidden;
+    height: 262px;
+}
+.projects_item_img img {
+    opacity: 0.5;
+    width: 331px;
+    height: 194px;
+}
+.projects_item:hover .projects_item_img img,.project_item_title {
+    opacity: 1;
+	
+}
+.projects_item:hover .project_item_title {
+	border-bottom:none;
+}
+.project_item_title {
+    font-family: 'Gothic';
+    font-size: 20px;
+    line-height: 30px;
+    color: #dbb25a;
+    border-bottom: 1px solid #dbb25a;
+}
+
+.project_btn {
+    width: 230px;
+    height: 44px;
+    border: 2px solid #deb969;
+    font-family: 'Gothic-Bold';
+    display: block;
+    line-height: 46px;
+    text-align: center;
+    font-size: 16px;
+    color: #dbb25a;
+    margin: 40px auto;
+}
+.project_btn:hover {
+    background-color: #dbb25a;
+    color: #3c2008;
+    border: 2px solid #764012;
+	cursor:pointer;
+}
+/*end our projects*/
+/*clients*/
+#clients {
+    overflow: hidden;
+}
+.clients_item {
+    width: 238px;
+    height: 130px;
+    float: left;
+    border-bottom: 1px solid #DEC874;
+    border-right: 1px solid #DEC874;
+    background-repeat: no-repeat;
+    cursor: pointer;
+	background-position: center center;
+}
+.clients_item:nth-child(5n) {
+    border-right: none;
+}
+.clients_wrapper {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.clients_item.bigroup {
+    background-image: url(../img/bigroup.png);
+    background-repeat: no-repeat;
+}
+.clients_item.bigroup:hover {
+    background-image: url(../img/bigroup_h.png);
+}
+
+.clients_item.baiterek {
+    background-image: url(../img/baiterek.png);
+}
+
+.clients_item.baiterek:hover {
+    background-image: url(../img/baiterek_h.png);
+}
+.clients_item.microsoft {
+    background-image: url(../img/microsoft.png);
+}
+
+.clients_item.microsoft:hover {
+    background-image: url(../img/microsoft_h.png);
+}
+.clients_item.kaztel {
+    background-image: url(../img/kaztel.png);
+}
+.clients_item.kaztel:hover {
+    background-image: url(../img/kaztel_h.png);
+}
+.clients_item.cola {
+    background-image: url(../img/cola.png);
+}
+.clients_item.cola:hover {
+    background-image: url(../img/cola_h.png);
+}
+.clients_item.bank_razvitia_kz {
+    background-image: url(../img/bank_razvitia_kz.png);
+}
+.clients_item.bank_razvitia_kz:hover {
+    background-image: url(../img/bank_razvitia_kz_h.png);
+}
+.clients_item.aes {
+    background-image: url(../img/aes.png);
+}
+.clients_item.aes:hover {
+    background-image: url(../img/aes_h.png);
+}
+.clients_item.atlas {
+    background-image: url(../img/atlas.png);
+}
+.clients_item.atlas:hover {
+    background-image: url(../img/atlas_h.png);
+}
+.clients_item.kpmg {
+    background-image: url(../img/kpmg.png);
+}
+.clients_item.kpmg:hover {
+    background-image: url(../img/kpmg_h.png);
+}
+.clients_item.kino {
+    background-image: url(../img/kino.png);
+}
+.clients_item.kino:hover {
+    background-image: url(../img/kino_h.png);
+}
+.clients_item.kaz_kom {
+    background-image: url(../img/kaz_kom.png);
+}
+.clients_item.kaz_kom:hover {
+    background-image: url(../img/kaz_kom_h.png);
+}
+.clients_item.maserati {
+    background-image: url(../img/maserati.png);
+}
+.clients_item.maserati:hover {
+    background-image: url(../img/maserati_h.png);
+}
+.clients_item.sary_arka {
+    background-image: url(../img/sary_arka.png);
+}
+.clients_item.sary_arka:hover {
+    background-image: url(../img/sary_arka_h.png);
+}
+.clients_item.almeo {
+    background-image: url(../img/almeo.png);
+}
+.clients_item.almeo:hover {
+    background-image: url(../img/almeo_h.png);
+}
+.clients_item.kazrosgas {
+    background-image: url(../img/kazrosgas.png);
+}
+.clients_item.kazrosgas:hover {
+    background-image: url(../img/kazrosgas_h.png);
+}
+.clients_item.damu {
+    background-image: url(../img/damu.png);
+}
+.clients_item.damu:hover {
+    background-image: url(../img/damu_h.png);
+}
+.clients_item.b {
+    background-image: url(../img/b.png);
+}
+.clients_item.b:hover {
+    background-image: url(../img/b_h.png);
+}
+.clients_item.kazzhol {
+    background-image: url(../img/kazzhol.png);
+}
+.clients_item.kazzhol:hover {
+    background-image: url(../img/kazzhol_h.png);
+}
+.clients_item.kaz_munai {
+    background-image: url(../img/kaz_munai.png);
+}
+.clients_item.kaz_munai:hover {
+    background-image: url(../img/kaz_munai_h.png);
+}
+.clients_item.expo {
+    background-image: url(../img/expo.png);
+}
+.clients_item.expo:hover {
+    background-image: url(../img/expo_hover.png);
+}
+.clients_item.kkc {
+    background-image: url(../img/kkc.png);
+}
+.clients_item.kkc:hover {
+    background-image: url(../img/kkc_hover.png);
+}
+
+/*end clients*/
+/*the_letter_of_thanks*/
+.the_letter_of_thanks {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+/*end the_letter_of_thanks*/
+
+
+/* footer*/
+.foot {
+    text-align: center;
+}
+
+.number_mail {
+    display: inline-block;
+    margin-top: 13px;
+}
+.number_mail p {
+    font-family: "Gothic";
+    font-size: 14px;
+    line-height: 17px;
+}
+.soc_seti {
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 14px;
+    font-family: "Gothic";
+    font-size: 14px;
+    margin-top: 3px;
+}
+.soc_seti img {
+    margin-left: 8px;
+}
+.developed {
+    font-family: "Gothic";
+    overflow: hidden;
+    font-size: 14px;
+    text-align: right;
+    line-height: 73px;
+}
+.developed a {
+    color: #dbb25a;
+    text-decoration: underline;
+}
+.developed a:hover {
+    text-decoration:none;
+}
+.informer {
+    margin-top: 28px;
+    overflow: hidden;
+}
+/*end footer*/
+/*content*/
+.content {
+    height: 100%;
+}
+.container_title {
+    font-family: "Gothic";
+    font-size: 30px;
+    margin: 30px 0 20px;
+    border-bottom: 1px solid;
+}
+.content p {
+    font-family: "Gothic";
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+.content p:last-child {
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}
+/*end content*/
+/*modal okno*/
+.modal_div {
+    width: 252px;
+    background: #3c2008;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    border: 1px solid;
+    margin-top: -150px;
+    margin-left: -150px;
+    text-align: center;
+    display: none;
+    opacity: 0;
+    z-index: 11;
+    padding: 20px 25px;
+    /* border-radius: 11px; */
+}
+
+.modal_close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 8040;
+  background-color: #fff;
+  border-radius: 50%;
+  background-image: url(../img/close.svg);
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 0px 1px rgba(51, 51, 51, 0.17);
+  background-size: 10px;
+  background-position: top 8px center;
+}
+
+#modal_form {
+	width: 300px; 
+	height: 300px; /* Размеры должны быть фиксированы */
+	border-radius: 5px;
+	border: 3px #000 solid;
+	background: #fff;
+	position: fixed; /* чтобы окно было в видимой зоне в любом месте */
+	top: 45%; /* отступаем сверху 45%, остальные 5% подвинет скрипт */
+	left: 50%; /* половина экрана слева */
+	margin-top: -150px;
+	margin-left: -150px; /* тут вся магия центровки css, отступаем влево и вверх минус половину ширины и высоты соответственно =) */
+	display: none; /* в обычном состоянии окна не должно быть */
+	opacity: 0; /* полностью прозрачно для анимирования */
+	z-index: 5; /* окно должно быть наиболее большем слое */
+	padding: 20px 10px;
+}
+/* Кнопка закрыть для тех кто в танке) */
+#modal_form #modal_close {
+	width: 21px;
+	height: 21px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: block;
+}
+/* Подложка */
+#overlay {
+  z-index: 9; /* подложка должна быть выше слоев элементов сайта, но ниже слоя модального окна */
+	position: fixed; /* всегда перекрывает весь сайт */
+	background-color: #000; /* черная */
+	opacity: 0.8; /* но немного прозрачна */
+	width: 100%; 
+	height: 100%; /* размером во весь экран */
+	top: 0; 
+	left: 0; /* сверху и слева 0, обязательные свойства! */
+	cursor: pointer;
+	display: none; /* в обычном состоянии её нет) */
+}
+.title_z {
+    font-family: "Gothic-Bold";
+    font-size: 16px;
+    margin-bottom: 21px;
+    display: block;
+    text-transform: uppercase;
+}
+.modal_f {
+    width: 250px;
+    text-indent: 10px;
+    padding: 0px;
+    border: 1px solid #DBB25A;
+    outline: medium none;
+    line-height: 34px;
+    background-repeat: no-repeat;
+    background-position: 136px center;
+    display: block;
+    margin: 0px auto 14px;
+    height: 36px;
+}
+#modal1 button {
+    width: 250px;
+    height: 50px;
+    border: 2px solid #deb969;
+    margin-top: 10px;
+    font-family: 'Gothic';
+    text-align: center;
+    float: right;
+    font-size: 16px;
+    color: #dbb25a;
+    outline: none;
+    background-color: #3c2008;
+}
+#modal1 button:hover {
+    background-color: #dbb25a;
+    color: #3c2008;
+    border: 2px solid #764012;
+	cursor:pointer;
+}
+.main_page a {
+  font-family: calibri;
+  font-size: 27px;
+  font-weight: bold;
+  float: right;
+  color: #FAB24C;
+  text-decoration: underline;
+}
+#user_phone {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+#user_phone:focus {
+	outline: none;
+}
+#user_phone:-moz-placeholder {
+  font-family: "Gothic";
+}
+#user_phone::-webkit-input-placeholder {
+  font-family: "Gothic";
+}
+#name:-moz-placeholder {
+  font-family: "Gothic";
+}
+#name::-webkit-input-placeholder {
+  font-family: "Gothic";
+}
+.open_modal {
+    width: 250px;
+    height: 50px;
+    border: 2px solid #deb969;
+    margin-top: 10px;
+    font-family: 'Gothic-Bold';
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    line-height: 50px;
+    color: #dbb25a;
+    outline: none;
+    background-color: #3c2008;
+    margin: 20px auto;
+}
+.open_modal:hover {
+    background-color: #dbb25a;
+    color: #3c2008;
+    border: 2px solid #764012;
+	cursor:pointer;
+}
+/*end modal*/
+/*media style*/
+@media screen and (max-width: 1024px){
+.who_are_we_list {
+    font-size:10px;
+	line-height:12px;
+}
+
+}
+@media screen and (max-width: 1024px){
+.content p {
+    font-family: "Gothic";
+    font-size: 13px;
+    line-height: 15px;
+}}
