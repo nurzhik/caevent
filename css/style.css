@@ -110,18 +110,11 @@ header {
 	text-decoration: none;
 }
 .zvonok {
-    width: 176px;
+    width: 153px;
     float: right;
-    margin-top: 15px;
+    margin-top: 37px;
 }
 
-.phone {
-    font-family: 'Gothic';
-    font-size: 17px;
-    line-height: 22px;
-    color: #dbb25a;
-    float: right;
-}
 
 
 .address-phone {
@@ -210,38 +203,37 @@ header {
     content: "";
 }
 .specialization_company_item span:before {
-    background-image: url(../img/sprite.png);
-    background-size: 461px,333px;
     background-repeat: no-repeat;
 }
 .specialization_company_item.corporate span:before {
-    background-position: -43px -23px;
-    width: 58px;
+    width: 65px;
     height: 84px;
+    background-image: url(../img/korporativnye-meropriatia.png);
+    background-size: 60px 84px;
 }
 .specialization_company_item.teambuilding span:before {
-    background-position: -119px -20px;
-    width: 84px;
+    background-image: url(../img/komanda.png);
+    width: 93px;
     height: 84px;
 }
 .specialization_company_item.presentation span:before {
-    background-position: -137px -120px;
+    background-image: url(../img/kino.png);
     width: 80px;
     height: 84px;
 }
 .specialization_company_item.concerts span:before {
-    background-position: -353px -29px;
+    background-image: url(../img/shary.png);
     width: 92px;
     height: 84px;
 }
 .specialization_company_item.road-show span:before {
-    background-position: -240px -125px;
+    background-image: url(../img/road-shou.png);
     width: 84px;
     height: 84px;
 }
 .specialization_company_item.booking-artists span:before {
-    background-position: -245px -24px;
-    width: 63px;
+    background-image: url(../img/mikrofon.png);
+    width: 66px;
     height: 84px;
 }
 /*specialization_company end*/
@@ -268,13 +260,11 @@ header {
 }
 
 .who_are_we_list:before {
-    top: -8px;
+    top: 0px;
     left: 0;
-    background-image: url(../img/sprite.png);
-    background-position: -147px -243px;
+    background-image: url(../img/simvol_m.png);
     width: 23px;
     height: 49px;
-    background-size: 505px,333px;
     background-repeat: no-repeat;
     position: absolute;
     display: block;
@@ -418,7 +408,7 @@ header {
     background-image: url(../img/kpmg_h.png);
 }
 .clients_item.kino {
-    background-image: url(../img/kino.png);
+    background-image: url(../img/kino_park.png);
 }
 .clients_item.kino:hover {
     background-image: url(../img/kino_h.png);
@@ -515,15 +505,17 @@ header {
     line-height: 17px;
 }
 .soc_seti {
-    overflow: hidden;
+    position: relative;
     clear: both;
-    margin-bottom: 14px;
     font-family: "Gothic";
     font-size: 14px;
-    margin-top: 3px;
+    margin-top: 12px;
 }
 .soc_seti img {
     margin-left: 8px;
+    position: absolute;
+    top: -6px;
+    right: -34px;
 }
 .developed {
     font-family: "Gothic";
@@ -742,3 +734,65 @@ header {
     font-size: 13px;
     line-height: 15px;
 }}
+
+
+.phone {
+    font-family: 'Gothic';
+    font-size: 17px;
+    line-height: 22px;
+    color: #dbb25a;
+    float: right;
+}
+
+
+
+.address-phone {
+    font-family: 'Gothic';
+    font-size: 24px;
+    line-height: 66px;
+    height: 50px;
+    color: #dbb25a;
+    float: right;
+}
+.zakr{
+	cursor: pointer;
+}
+.showphone{
+	display: none;
+}
+.showbutton {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    font-family: "Gothic";
+    line-height: 18px;
+    margin-bottom: 8px;
+    text-align: right;
+    font-weight: bold;
+    color: #dbb25a;
+}
+.showbutton:hover{
+  text-decoration: underline;
+}
+.blue{
+	  background-color: #fff;
+	  color: #1D7DC6;
+}
+/*projetcs 2lvl*/
+.project_content {
+    overflow: hidden;
+}
+.project_content_img {
+    float: left;
+    margin: 15px;
+    width: 208px;
+    overflow: hidden;
+    height: 186px;
+    border: 1px solid #DBB25A;
+}
+.project_content_img img {
+    width: 217px;
+}
+/*project 2lvl end*/
